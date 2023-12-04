@@ -1,4 +1,4 @@
-package EXPLICACION;
+package ExplicaciónBORJA;
 
 import java.util.Random;
 import java.util.Scanner;

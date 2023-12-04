@@ -1,4 +1,4 @@
-package EXPLICACION;
+package ExplicaciónBORJA;
 
 import java.util.Scanner;
 
