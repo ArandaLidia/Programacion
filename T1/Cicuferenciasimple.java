@@ -6,5 +6,6 @@ public class Cicuferenciasimple
         double radio = 4.5;
         // double : variable : radio
         double area= 2*3.141596*(Math.pow(radio,2));
+        System.out.println(area);
     }
 }

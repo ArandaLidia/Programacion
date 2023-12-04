@@ -24,7 +24,7 @@ public class Ejercicio2 {
         int n4 = scanner.nextInt();
         System.out.println("Introduce número 5:");
         int n5 = scanner.nextInt();
-        System.out.println("Me has dicho que te llamas" + nombre);
+        System.out.println("Me has dicho que te llamas " + nombre);
         System.out.println(n1 + " " + n2 + " " + n3 + " " + n4 + " " + n5);
 
         int aux = n1;
