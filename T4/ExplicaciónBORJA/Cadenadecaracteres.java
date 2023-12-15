@@ -15,7 +15,7 @@ public class Cadenadecaracteres {
         palabra = "Esto es un ejemplo de frase para analizar";
 
 
-//Devuelve el número de letras del String
+//Devuelve el número de letras del String, incluyendo los espacios
 
         System.out.println("Imprime el número de letras que tiene el STring.");
         System.out.println(palabra.length());
