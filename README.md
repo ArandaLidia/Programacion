@@ -1,1 +1,1 @@
-HOLA FDG SFDG # PROGRAMACION
+Repositorio de la asignatura de # PROGRAMACION
