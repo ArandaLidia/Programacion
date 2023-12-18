@@ -232,7 +232,10 @@ public class Cadenadecaracteres {
 
         }
         System.out.println("El número de palabras totales de todas las oraciones es "+numeroPalabrasTotales);
+        System.out.println();
 
+palabra="bolo";
+        System.out.println(palabra.replaceAll("e", "i").replaceAll("a", "4"));
     }
 }
 
