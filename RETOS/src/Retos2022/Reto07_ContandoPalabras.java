@@ -1,13 +1,16 @@
 package Retos2022;
+
 /*
- * Reto #6
- * INVIRTIENDO CADENAS
- * Fecha publicación enunciado: 07/02/22
- * Fecha publicación resolución: 14/02/22
- * Dificultad: FÁCIL
+ * Reto #7
+ * CONTANDO PALABRAS
+ * Fecha publicación enunciado: 14/02/22
+ * Fecha publicación resolución: 21/02/22
+ * Dificultad: MEDIA
  *
- * Enunciado: Crea un programa que invierta el orden de una cadena de texto sin usar funciones propias del lenguaje que lo hagan de forma automática.
- * - Si le pasamos "Hola mundo" nos retornaría "odnum aloH"
+ * Enunciado: Crea un programa que cuente cuantas veces se repite cada palabra y que muestre el recuento final de todas ellas.
+ * - Los signos de puntuación no forman parte de la palabra.
+ * - Una palabra es la misma aunque aparezca en mayúsculas y minúsculas.
+ * - No se pueden utilizar funciones propias del lenguaje que lo resuelvan automáticamente.
  *
  * Información adicional:
  * - Usa el canal de nuestro discord (https://mouredev.com/discord) "🔁reto-semanal" para preguntas, dudas o prestar ayuda a la acomunidad.
@@ -16,8 +19,8 @@ package Retos2022;
  * - Subiré una posible solución al ejercicio el lunes siguiente al de su publicación.
  *
  */
-public class Reto6 {
+public class Reto07_ContandoPalabras {
     public static void main(String[] args) {
-        
+
     }
 }

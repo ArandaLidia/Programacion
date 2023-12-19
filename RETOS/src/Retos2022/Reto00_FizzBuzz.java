@@ -11,7 +11,7 @@ package Retos2022;
  * - Múltiplos de 3 y de 5 a la vez por la palabra "fizzbuzz".
  *
  * */
-public class Reto0 {
+public class Reto00_FizzBuzz {
     public static void main(String[] args) {
 int multiplo3=0;
 int multiplo5=0;

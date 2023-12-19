@@ -15,7 +15,7 @@ import java.util.Scanner;
  * - Imprime el cálculo del área de un polígono de cada tipo.
  *
  */
-public class Reto4 {
+public class Reto04_Polígono {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Elige el polígono deseado para calcular su área: \n" +
