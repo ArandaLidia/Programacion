@@ -5,7 +5,7 @@ public class Usuario {
     //molde de lo que será uun usuario ->Manual de instrucciones
     //atributos -> caracteristicas que quiero manejar en el programa
     // Siempre en privado, las del mismo tipo en misma linea. siempre las primeras.
-    private String nombre, apellido, dni, correo;
+    private String nombre, apellido, dni, correo, pass;
     private int telefono;
 
     //metodos -> Funcionalidades que el objeto tiene
