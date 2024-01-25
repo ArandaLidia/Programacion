@@ -22,7 +22,10 @@ public class Entrada {
 
         System.out.println("El IMC es "+ persona[0].imc(persona[0].getPeso(),persona[0].getAltura()));
        ;
-        persona[0].incrementa(persona[0].getEdad(10));
+       for(Persona item:persona){
+           item.incrementa(10);
+       }
+
         for (Persona item : persona) {
              item.mostrarDatos();
         }

@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="55c13832-a35d-4dbc-8da6-ecdc887f83e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../T6_Base1/src/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../T6_Base3/src/model/Persona.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../T6_Objetos/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T6_Base1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T6_Base1/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T6_Base1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../T6_Base1/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../T6_Base1/src/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entrada.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../T6_Objetos/src/model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../T6_Objetos/src/model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T6_Base3/src/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T6_Base3/src/Entrada.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../T6_Base3/src/model/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/../T6_Base3/src/model/Persona.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
