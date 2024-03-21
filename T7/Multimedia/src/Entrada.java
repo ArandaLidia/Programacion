@@ -1,4 +1,5 @@
 import Controller.Coleccion;
+import model.*;
 
 import java.util.Scanner;
 
@@ -32,10 +33,12 @@ Dentro del menú, poner tres opciones nuevas:
 public class Entrada {
     public static void main(String[] args) {
 
-        Coleccion coleccion=new Coleccion();
-        Scanner scanner=new Scanner(System.in);
-        int opcion=0;
-        do{
+        Coleccion coleccion = new Coleccion();
+        Scanner scanner = new Scanner(System.in);
+        Persona[] actores;
+
+        int opcion;
+        do {
             System.out.println("¿Qué operación quieres realizar?");
             System.out.println("1 - Añadir a la colección");
             System.out.println("2 - Eliminar de la colección");
@@ -44,28 +47,92 @@ public class Entrada {
             System.out.println("5 - Buscar por actor");
             System.out.println("6 - Buscar por director");
             System.out.println("7 - Salir");
-            opcion= scanner.nextInt();
-            switch (opcion){
+            opcion = scanner.nextInt();
+            switch (opcion) {
                 case 1:
-                    System.out.println("¿Qué tipo de elemento quieres añadir? Audio, video o libro.");
-                    boolean error=true;
-                    coleccion.agregarColeccion(scanner.nextInt());
+                    Elemento elemento = new Elemento() {
+                    };
+                    System.out.println("¿Qué tipo de elemento quieres añadir? 1- Libro, 2- Audio o 3-Video.");
+                    int opcionAnadir = scanner.nextInt();
+                    System.out.println("Introduce todos los datos");
+                    System.out.println("Introduce identificación: ");
+                    int id = scanner.nextInt();
+                    System.out.println("Introduce título: ");
+                    String titulo = scanner.next();
+                    System.out.println("Introduce nombre de autor: ");
+                    String nombre = scanner.next();
+                    System.out.println("Introduce dni de autor: ");
+                    String dni = scanner.next();
+                    System.out.println("Introduce tamaño: ");
+                    int tamanio = scanner.nextInt();
+                    System.out.println("Introduce formato: ");
+                    String formato = scanner.next();
+                    switch (opcionAnadir) {
+                        case 1:
+                            System.out.println("Introduce ISBN: ");
+                            String isbn = scanner.next();
+                            System.out.println("Introduce número de páginas: ");
+                            int numPaginas = scanner.nextInt();
+                            elemento = new Libro(id, titulo, new Persona(nombre, dni), tamanio, formato, isbn, numPaginas);
+                            break;
+                        case 2:
+                            System.out.println("Introduce la duración: ");
+                            int duracion = scanner.nextInt();
+                            System.out.println("Introduce el soporte");
+                            String soporte = scanner.next();
+                            elemento = new Audio(id, titulo, new Persona(nombre, dni), tamanio, formato, duracion, soporte);
+                            break;
+                        case 3:
+                            System.out.println("Introduce el nombre del director: ");
+                            String nombreDirector = scanner.next();
+                            System.out.println("Introduce el DNI del director: ");
+                            String dniDirector = scanner.next();
+                            System.out.println("¿Cuántos actores tiene la película?");
+                            int numActores = scanner.nextInt();
+                            String nombreActor;
+                            String dniActor;
+                            actores = new Persona[numActores];
+                            for (int i = 0; i < numActores; i++) {
+                                System.out.println("Introduce el nombre del actor:");
+                                nombreActor = scanner.next();
+                                System.out.println("Introduce el dni del actor:");
+                                dniActor = scanner.next();
+                                actores[i] = new Persona(nombreActor, dniActor);
+                            }
+                            elemento = new Video(id, titulo, new Persona(nombre, dni), tamanio, formato, new Persona(nombreDirector, dniDirector), actores);
+                            break;
+                        default:
+                    }
+                    coleccion.aniadirElementos(elemento);
+                    break;
 
-                case    2:
+                case 2:
                     System.out.println("Introduce el identificador del elemento que quieres eliminar:");
-
+                    int idBorrar = scanner.nextInt();
+                    coleccion.elimimnarElemento(idBorrar);
                     break;
                 case 3:
-                    System.out.println("¿Que elementos quieres listar? 1- Audio 2 - Video 3 - Libro");
+                    System.out.println("Listando elementos...");
+                    coleccion.ListarElementos();
                     break;
                 case 4:
+                    System.out.println("Buscar por autor");
                     System.out.println("Introduce un autor:");
+                    String nombreAutor = scanner.next();
+                    coleccion.buscarElementoNombre(nombreAutor);
                     break;
-                case    5:
+                case 5:
+                    System.out.println("Buscar por actor");
                     System.out.println("Introduce un actor: ");
+                    String nombreActor = scanner.next();
+                    coleccion.buscarElementoNombre(nombreActor);
+
                     break;
                 case 6:
+                    System.out.println("Buscar por director");
                     System.out.println("Introduce un director: ");
+                    String nombreDirector = scanner.next();
+                    coleccion.buscarElementoNombre(nombreDirector);
                     break;
                 case 7:
                     System.out.println("Saliendo...");
@@ -74,10 +141,7 @@ public class Entrada {
                     System.out.println("Opción no contemplada.");
 
             }
-        }while(opcion!=7);
-        }
-
-
-
-
+        } while (opcion != 7);
     }
+
+}

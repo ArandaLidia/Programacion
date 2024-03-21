@@ -26,7 +26,7 @@ Dentro del menú, poner tres opciones nuevas:
 1. Buscar por autor: introduciré el nombre de un autor y me dirá el título de todos los libros de tenga
 2. Buscar por actor: se introducirá el nombre de un actor y se mostrará el título de todas las películas donde aparezca
 3. Buscar por director: se introducirá el nombre de un director y s emostarán todas las películas que tenga*/
-public class Audio extends Elemento{
+public final class Audio extends Elemento{
     private int duracion;
     private String soporte;
 
@@ -38,11 +38,12 @@ public class Audio extends Elemento{
         this.soporte = soporte;
     }
 
-    public Audio(int identificador, int tamanio, String titulo, String autor, String formato, int duracion, String soporte) {
+    public Audio(int identificador,  String titulo, Persona autor,int tamanio, String formato, int duracion, String soporte) {
         super(identificador, tamanio, titulo, autor, formato);
         this.duracion = duracion;
         this.soporte = soporte;
     }
+
 
     @Override
     public void mostrarDatos() {

@@ -27,7 +27,7 @@ Dentro del menú, poner tres opciones nuevas:
 2. Buscar por actor: se introducirá el nombre de un actor y se mostrará el título de todas las películas donde aparezca
 3. Buscar por director: se introducirá el nombre de un director y s emostarán todas las películas que tenga*/
 public class Persona {
-    String nombre, DNI;
+    private String nombre, DNI;
 
     public Persona() {
     }

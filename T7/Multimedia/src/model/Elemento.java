@@ -26,33 +26,36 @@ Dentro del menú, poner tres opciones nuevas:
 1. Buscar por autor: introduciré el nombre de un autor y me dirá el título de todos los libros de tenga
 2. Buscar por actor: se introducirá el nombre de un actor y se mostrará el título de todas las películas donde aparezca
 3. Buscar por director: se introducirá el nombre de un director y s emostarán todas las películas que tenga*/
-public class Elemento {
-    private int identificador, tamanio;
-    private   String titulo, autor, formato;
+
+//CLASE BASE, NO QUIERO QUE EXISTA. NO ES NECESARIO QUE TENGA METODO ABSTRACTO
+public abstract class Elemento {
+    private int id, tamanio;
+    private   String titulo, formato;
+    private Persona autor;
 
     public Elemento() {
     }
 
-    public Elemento(int identificador, int tamanio, String titulo, String autor, String formato) {
-        this.identificador = identificador;
+    public Elemento(int id, int tamanio, String titulo, Persona autor, String formato) {
+        this.id = id;
         this.tamanio = tamanio;
         this.titulo = titulo;
         this.autor = autor;
         this.formato = formato;
     }
     public void mostrarDatos(){
-        System.out.println("El identificador es: "+identificador);
+        System.out.println("El identificador es: "+id);
         System.out.println("El tamaño es : "+tamanio);
         System.out.println("El título es : "+titulo);
-        System.out.println("El autor es : "+autor);
         System.out.println("El formato es: "+formato);
+        autor.mostrarDatos();
     }
     public int getIdentificador() {
-        return identificador;
+        return id;
     }
 
     public void setIdentificador(int identificador) {
-        this.identificador = identificador;
+        this.id = identificador;
     }
 
     public int getTamanio() {
@@ -71,11 +74,19 @@ public class Elemento {
         this.titulo = titulo;
     }
 
-    public String getAutor() {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public Persona getAutor() {
         return autor;
     }
 
-    public void setAutor(String autor) {
+    public void setAutor(Persona autor) {
         this.autor = autor;
     }
 

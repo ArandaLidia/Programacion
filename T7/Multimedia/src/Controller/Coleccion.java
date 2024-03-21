@@ -1,8 +1,10 @@
 package Controller;
 
 import model.Elemento;
+import model.Video;
 
 import java.util.ArrayList;
+import java.util.Objects;
 import java.util.Scanner;
 
 /*1. (ListaMultimedia)
@@ -36,30 +38,70 @@ public class Coleccion {
     private ArrayList<Elemento>listaElementos;
     private int identificador;
     Scanner scanner=new Scanner(System.in);
-    public void agregarColeccion(int i){
-        boolean error=true;
-        do {
-            String objeto= scanner.next();
-            if (objeto.equalsIgnoreCase("audio")) {
-                agregar
-                error=true;
-            } else if (objeto.equalsIgnoreCase("video")) {
-                error=true;
-            } else if (objeto.equalsIgnoreCase("libro")) {
-                error=true;
-            } else {
-                System.out.println("Opcion no contemplada");
-                error=false;
-            }
-        } while (!error);
-    }
-    public void agregarLibro(){
-        System.out.println("Ha elegido agregar libro.");
-        System.out.println("Introduzca el ID de libro:");
-        identificador= scanner.nextInt();
-        if(identificador==null){
+    public void aniadirElementos(Elemento elemento){
+        if(estaElemento(elemento.getId())==null){
+            this.listaElementos.add(elemento);
+            System.out.println("Agregado correctamente.");
+        }else {
+            System.out.println("Elemento duplicado.");
+        }
 
+    }
+    public void ListarElementos(){
+        for (Elemento item : listaElementos) {
+            item.mostrarDatos();
         }
     }
 
-}
+    public Elemento estaElemento(int  id){
+        for (Elemento item : listaElementos) {
+            if(item.getId()==id){
+                return item;
+            }
+
+        }
+        return null;
+    }
+    public Coleccion() {
+        this.listaElementos = new ArrayList<>();
+    }
+
+    public void buscarElemento(int id){
+        for (Elemento item : listaElementos) {
+            if(item.getIdentificador()==id){
+                System.out.println("Elemento encontrado");
+                item.mostrarDatos();
+                break;
+            }
+        }
+    }
+    public void buscarElementoNombre(String nombre){
+        for (Elemento item : listaElementos) {
+            if(Objects.equals(item.getAutor().getNombre(), nombre)){
+                System.out.println("Elemento encontrado");
+                item.mostrarDatos();
+                break;
+            }
+        }
+    }
+    public void elimimnarElemento(int id){
+        for (Elemento item : listaElementos) {
+            if(item.getIdentificador()==id){
+                System.out.println("Elemento encontrado");
+                listaElementos.remove(item);
+                break;
+            }
+        }
+    }
+    public void elimimnarDirector(String nombre){
+        for (Elemento item : listaElementos) {
+            if(item instanceof Video){
+                ((Video) item).getDirector().getNombre().equalsIgnoreCase(nombre);
+                    item.mostrarDatos();
+                    break;
+                }
+            }
+        }
+    }
+
+

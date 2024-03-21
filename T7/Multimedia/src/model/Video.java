@@ -29,9 +29,9 @@ Dentro del menú, poner tres opciones nuevas:
 1. Buscar por autor: introduciré el nombre de un autor y me dirá el título de todos los libros de tenga
 2. Buscar por actor: se introducirá el nombre de un actor y se mostrará el título de todas las películas donde aparezca
 3. Buscar por director: se introducirá el nombre de un director y s emostarán todas las películas que tenga*/
-public class Video extends Elemento{
+public final class Video extends Elemento{
     private Persona director;
-    private ArrayList<Persona> actores;
+    private Persona[] actores;
 
     public Video() {
     }
@@ -40,18 +40,23 @@ public class Video extends Elemento{
         this.director = director;
     }
 
-    public Video(int identificador, int tamanio, String titulo, String autor, String formato, Persona director, ArrayList<Persona> actores) {
-        super(identificador, tamanio, titulo, autor, formato);
+    public Video(Persona director, Persona[] actores) {
         this.director = director;
-        this.actores=new ArrayList<>();
+        this.actores = actores;
+    }
+
+    public Video(int id,  String titulo, Persona autor,int tamanio, String formato, Persona director, Persona[] actores) {
+        super(id, tamanio, titulo, autor, formato);
+        this.director = director;
+        this.actores = actores;
     }
 
     @Override
     public void mostrarDatos() {
         super.mostrarDatos();
         director.mostrarDatos();
-        for (Persona item:actores){
-            item.mostrarDatos();
+        for (Persona actor:actores){
+            actor.mostrarDatos();
         }
     }
 
@@ -63,11 +68,11 @@ public class Video extends Elemento{
         this.director = director;
     }
 
-    public ArrayList<Persona> getActores() {
+    public Persona[] getActores() {
         return actores;
     }
 
-    public void setActores(ArrayList<Persona> actores) {
+    public void setActores(Persona[] actores) {
         this.actores = actores;
     }
 }

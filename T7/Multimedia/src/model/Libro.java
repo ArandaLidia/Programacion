@@ -26,34 +26,42 @@ Dentro del menú, poner tres opciones nuevas:
 1. Buscar por autor: introduciré el nombre de un autor y me dirá el título de todos los libros de tenga
 2. Buscar por actor: se introducirá el nombre de un actor y se mostrará el título de todas las películas donde aparezca
 3. Buscar por director: se introducirá el nombre de un director y s emostarán todas las películas que tenga*/
-public class Libro extends Elemento{
-    private int ISBN, numPaginas;
+public final class Libro extends Elemento{
+    private int numPaginas;
+    private String isbn;
 
     public Libro() {
     }
 
-    public Libro(int ISBN) {
-        this.ISBN = ISBN;
+    public Libro(String isbn) {
+        this.isbn = isbn;
     }
 
-    public Libro(int identificador, int tamanio, String titulo, String autor, String formato, int ISBN) {
-        super(identificador, tamanio, titulo, autor, formato);
-        this.ISBN = ISBN;
+    public Libro(int numPaginas, String isbn) {
+        this.numPaginas = numPaginas;
+        this.isbn = isbn;
+    }
+
+    public Libro(int id, String titulo, Persona autor, int tamanio, String formato,  String isbn,int numPaginas) {
+        super(id, tamanio, titulo, autor, formato);
+        this.numPaginas = numPaginas;
+        this.isbn = isbn;
     }
 
     @Override
     public void mostrarDatos() {
         super.mostrarDatos();
-        System.out.println("El ISBN  es : "+ISBN);
+        System.out.println("El ISBN  es : "+isbn);
         System.out.println("El número de páginas es "+numPaginas);
     }
 
-    public int getISBN() {
-        return ISBN;
+
+    public String getIsbn() {
+        return isbn;
     }
 
-    public void setISBN(int ISBN) {
-        this.ISBN = ISBN;
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
     public int getNumPaginas() {
