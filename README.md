@@ -22,7 +22,13 @@ Repositorio con los Ejercicios de Programación realizados durante el FP de grad
 - [3º Trimestre](https://github.com/ArandaLidia/Programacion/tree/main/2%20-%20Ejercicios%20Evaluables/3Trimestre_Biblioteca) Biblioteca
 
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA) libro *F.M. Pérez Montes*
-- [Variables y Condicionales](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B1_VariablesYCondicionales)
+- [Boletín 1](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B1_VariablesYCondicionales) Variables y condicionales
+- [Boletín 2](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B2_CondicionalesYBucles) Condicionales y bucles
+- [Boletín 3](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B3_BuclesAnidados) Bucles anidados
+- [Boletín 4](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B4_Tablas) Tablas
+- [Boletín 5](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B5_TablasnDimensionales) Tablas n-dimensionales
+- [Boletín 6](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B6_Funciones) Funciones
+
 
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/4%20-%20Ejercicios%20Simulacro) de simulacro de examen.
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/5%20-%20Ejercicios%20Clase%20Presencial) clase presencial Universidad.
