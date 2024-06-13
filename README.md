@@ -21,7 +21,7 @@ Ejercicios de Programación realizados en el FP de grado Superior DAW en la Univ
 - [2º Trimestre](https://github.com/ArandaLidia/Programacion/tree/main/2%20-%20Ejercicios%20Evaluables/2Trimestre_Carrera) Carrera
 - [3º Trimestre](https://github.com/ArandaLidia/Programacion/tree/main/2%20-%20Ejercicios%20Evaluables/3Trimestre_Biblioteca) Biblioteca
 
-## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA) libro *F.M. Pérez Montes*
+## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA) JAVA del libro del autor: *F.M. Pérez Montes*
 - [Boletín 1](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B1_VariablesYCondicionales) Variables y condicionales
 - [Boletín 2](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B2_CondicionalesYBucles) Condicionales y bucles
 - [Boletín 3](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B3_BuclesAnidados) Bucles anidados
