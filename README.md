@@ -2,7 +2,7 @@
 
 # Programación
 
-Repositorio con los Ejercicios de Programación realizados durante el FP de grado Superior DAW en la Universidad Europea de Madrid.
+Ejercicios de Programación realizados en el FP de grado Superior DAW en la Universidad Europea de Madrid.
 
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/) realizados durante el curso.
 
