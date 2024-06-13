@@ -24,7 +24,7 @@ Repositorio con los Ejercicios de Programación realizados durante el FP de grad
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA) libro *F.M. Pérez Montes*
 - [Variables y Condicionales](https://github.com/ArandaLidia/Programacion/tree/main/3%20-%20PDFJAVA/src/B1_VariablesYCondicionales)
 
-## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/4%20-%20Ejercicios%20Simulacro) para simulacro de examen.
+## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/4%20-%20Ejercicios%20Simulacro) de simulacro de examen.
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/5%20-%20Ejercicios%20Clase%20Presencial) clase presencial Universidad.
 
 
