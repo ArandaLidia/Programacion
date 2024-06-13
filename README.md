@@ -6,15 +6,15 @@ Repositorio con los Ejercicios de Programación realizados durante el FP de grad
 
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/) realizados durante el curso.
 
-- [Tema 1](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T1)
-- [Tema 2](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T2)
-- [Tema 3](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T3)
-- [Tema 4](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T4)
-- [Tema 5](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T5)
-- [Tema 6](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T6)
-- [Tema 7](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T7)
-- [Tema 8](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T8)
-- [Tema 9](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T9)
+- [Tema 1](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T1) Introducción a la programación
+- [Tema 2](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T2) Estructura de un programa informático
+- [Tema 3](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T3) Estructuras de control
+- [Tema 4](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T4) Estructuras de almacenamiento
+- [Tema 5](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T5) Orientación a objetos
+- [Tema 6](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T6) Herencia y polimorfismo
+- [Tema 7](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T7) Uso avanzado de clases
+- [Tema 8](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T8) Flujo de datos
+- [Tema 9](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/T9) Base de datos
 
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/2%20-%20Ejercicios%20Evaluables) evaluables trimestrales.
 - [1º Trimestre](https://github.com/ArandaLidia/Programacion/tree/main/2%20-%20Ejercicios%20Evaluables/1Trimestre_Bingo) Bingo
