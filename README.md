@@ -2,7 +2,7 @@
 
 # Programación
 
-Ejercicios de Programación realizados en el FP de grado Superior DAW en la Universidad Europea de Madrid.
+Ejercicios de Programación realizados en el FP de grado Superior DAM en la Universidad Europea de Madrid.
 
 ## - [Ejercicios](https://github.com/ArandaLidia/Programacion/tree/main/1%20-%20Ejercicios/) realizados durante el curso.
 
@@ -35,4 +35,5 @@ Ejercicios de Programación realizados en el FP de grado Superior DAW en la Univ
 
 
 > [!NOTE]
->Ejercicios realizados durante el primer año de DAW.
+>Ejercicios realizados durante el primer año de DAM
+> .
