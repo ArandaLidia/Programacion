@@ -1,4 +1,4 @@
-![Imagen de Cabecera](https://images.unsplash.com/photo-1587620962725-abab7fe55159?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)
+![Imagen de Cabecera](https://github.com/ArandaLidia/Programacion/blob/main/Captura%20de%20pantalla%202024-10-09%20004011.png)
 
 # Programación
 
